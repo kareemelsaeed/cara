@@ -1,0 +1,65 @@
+/* *{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+} */
+
+.navbar{
+    background-color: rgb(206, 206, 241);
+}
+
+.hero{
+    background-image: url("../images/hero4.png");
+    background-size: cover;
+    height: 92vh;
+}
+
+.repair_services{
+    background-image: url("../images/b2.jpg");
+    background-size: cover;
+}
+
+.buy_1{
+    background-image: url("../images/b17.jpg");
+    background-size: cover;
+}
+
+.spring{
+    background-image: url("../images/b10.jpg");
+    background-size: cover;
+}
+
+.seasonal{
+    background-image: url("../images/b7.jpg");
+    background-size: cover;
+}
+
+.new_footwear{
+    background-image: url("../images/b4.jpg");
+    background-size: cover;
+}
+
+.t_shirts{
+    background-image: url("../images/b18.jpg");
+    background-size: cover;
+}
+
+.sign-up{
+    background-color: rgb(2, 0, 8);
+    background-size: cover;
+}
+
+@media screen and (max-width:600px){
+    
+    .hero{
+        background-image: none;
+        background-color: rgb(206, 206, 241);
+    }
+
+    .main{
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
