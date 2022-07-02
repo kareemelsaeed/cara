@@ -11,7 +11,7 @@
 .hero{
     background-image: url("../images/hero4.png");
     background-size: cover;
-    height: 92vh;
+    height: 100vh;
 }
 
 .repair_services{
